@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/github-user-finder/github-user-finder.iml" filepath="$PROJECT_DIR$/github-user-finder/github-user-finder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/github-user-process/github-user-process.iml" filepath="$PROJECT_DIR$/github-user-process/github-user-process.iml" />
+      <module fileurl="file://$PROJECT_DIR$/github-user-service/github-user-service.iml" filepath="$PROJECT_DIR$/github-user-service/github-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kafka-github-user.iml" filepath="$PROJECT_DIR$/.idea/kafka-github-user.iml" />
+    </modules>
+  </component>
+</project>

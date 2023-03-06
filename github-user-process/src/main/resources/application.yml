@@ -1,0 +1,24 @@
+spring.cloud.stream:
+  function:
+    definition: usersProcess
+  bindings:
+    usersProcess-in-0:
+      destination: github-users
+    usersProcess-out-0:
+      destination: equal.github-user
+  kafka:
+    bindings:
+      usersProcess-in-0:
+        consumer:
+          configuration:
+            value:
+              deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      usersProcess-out-0:
+        producer:
+          configuration:
+            value:
+              serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    binder:
+      brokers:
+        - localhost:9091
+        - localhost:9092
