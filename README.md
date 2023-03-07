@@ -19,8 +19,8 @@ The sequence diagram shows the flow of data (from Produce to Consume)
 
 ```mermaid
 sequenceDiagram
-github-user-finder ->> github-user-api: send request to find users
-github-user-api ->> github-user-finder: return users
+github-user-finder ->> github user api: send request to find users
+github user api ->> github-user-finder: return users
 github-user-finder ->> github-users topic: send all users to topic (produce data)
 github-user-process-->> github-users topic: Receive all users from topic (consume data)
 github-user-process ->> equal.github-user topic: send equal user to topic (produce data)
