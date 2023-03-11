@@ -1,4 +1,4 @@
-# Spring Kafka Streams implemented with Kotlin❤️
+# Spring Kafka Streams implemented with Kotlin
 
 ## How to setup
 
